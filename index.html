@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-light-bulb</title>
+    <style type="text/css">
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        button{
+            margin-bottom:2em ;
+            padding: 1em;
+        }
+        #switch-off{
+            background-color: black;
+            color: white;
+        }
+        #switch-on{
+            background-color: green;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <img id="bulb" src="light-off.jpg" alt="light off" height="200" >
+    
+    <div>
+      <button id="switch-on" onclick="switchOn()">switch on</button>
+      <button id="switch-off" onclick="switchOff()">switch off</button>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
